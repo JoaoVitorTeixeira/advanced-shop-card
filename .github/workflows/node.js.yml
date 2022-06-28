@@ -24,9 +24,6 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Build
-        run: yarn build
-
       - name: Deploy
         run: |
           git config --global user.name $user_name
